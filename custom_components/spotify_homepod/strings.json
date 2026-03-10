@@ -31,7 +31,7 @@
       },
       "auth": {
         "title": "Authorise Spotify",
-        "description": "[Authorise Spotify]({auth_url})\n\nPaste the full redirect URL below after authorising.",
+        "description": "**Step 1:** Open this URL in your browser to authorise Spotify:\n\n`{auth_url}`\n\n**Step 2:** After approving, your browser will redirect to a page that can't be found — that's normal. Copy the full URL from the address bar and paste it below.",
         "data": {
           "auth_code_url": "Redirect URL"
         }
