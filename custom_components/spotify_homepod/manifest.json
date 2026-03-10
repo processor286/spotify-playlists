@@ -1,0 +1,15 @@
+{
+  "domain": "spotify_homepod",
+  "name": "Spotify to HomePod",
+  "version": "1.0.0",
+  "homeassistant": "2023.1.0",
+  "documentation": "https://github.com/processor286/spotify-homepod",
+  "issue_tracker": "https://github.com/processor286/spotify-homepod/issues",
+  "dependencies": [],
+  "codeowners": ["@processor286"],
+  "requirements": [
+    "spotipy>=2.23.0"
+  ],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

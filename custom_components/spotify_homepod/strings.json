@@ -1,0 +1,84 @@
+{
+  "config": {
+    "step": {
+      "homepods": {
+        "title": "Register your HomePods",
+        "description": "{hint}",
+        "data": {
+          "homepod_1_name": "HomePod 1 — Name (e.g. Kitchen)",
+          "homepod_1_host": "HomePod 1 — IP Address",
+          "homepod_2_name": "HomePod 2 — Name",
+          "homepod_2_host": "HomePod 2 — IP Address",
+          "homepod_3_name": "HomePod 3 — Name",
+          "homepod_3_host": "HomePod 3 — IP Address",
+          "homepod_4_name": "HomePod 4 — Name",
+          "homepod_4_host": "HomePod 4 — IP Address",
+          "homepod_5_name": "HomePod 5 — Name",
+          "homepod_5_host": "HomePod 5 — IP Address",
+          "homepod_6_name": "HomePod 6 — Name",
+          "homepod_6_host": "HomePod 6 — IP Address"
+        }
+      },
+      "account": {
+        "title": "Spotify Account",
+        "description": "Enter credentials for this Spotify account.",
+        "data": {
+          "account_name": "Display Name (e.g. Alice)",
+          "spotify_client_id": "Spotify Client ID",
+          "spotify_client_secret": "Spotify Client Secret",
+          "spotify_redirect_uri": "Spotify Redirect URI"
+        }
+      },
+      "auth": {
+        "title": "Authorise Spotify",
+        "description": "[Authorise Spotify]({auth_url})\n\nPaste the full redirect URL below after authorising.",
+        "data": {
+          "auth_code_url": "Redirect URL"
+        }
+      },
+      "presets": {
+        "title": "Voice Presets for {account}",
+        "description": "{hint}",
+        "data": {
+          "preset_1_name": "Preset 1 — Name (e.g. Morning Vibes)",
+          "preset_1_uri": "Preset 1 — Spotify URI",
+          "preset_1_homepod": "Preset 1 — Target HomePod",
+          "preset_2_name": "Preset 2 — Name",
+          "preset_2_uri": "Preset 2 — Spotify URI",
+          "preset_2_homepod": "Preset 2 — Target HomePod",
+          "preset_3_name": "Preset 3 — Name",
+          "preset_3_uri": "Preset 3 — Spotify URI",
+          "preset_3_homepod": "Preset 3 — Target HomePod"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect_homepod": "Cannot reach this HomePod — check the IP address.",
+      "no_homepods": "Please enter at least one HomePod.",
+      "invalid_auth": "Spotify authorisation failed.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {}
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update Options",
+        "data": {
+          "poll_interval": "Poll interval (seconds)",
+          "stream_quality": "Stream quality",
+          "auto_play": "Auto-play when Spotify is active",
+          "preset_1_name": "Preset 1 — Name",
+          "preset_1_uri": "Preset 1 — Spotify URI",
+          "preset_1_homepod": "Preset 1 — Target HomePod",
+          "preset_2_name": "Preset 2 — Name",
+          "preset_2_uri": "Preset 2 — Spotify URI",
+          "preset_2_homepod": "Preset 2 — Target HomePod",
+          "preset_3_name": "Preset 3 — Name",
+          "preset_3_uri": "Preset 3 — Spotify URI",
+          "preset_3_homepod": "Preset 3 — Target HomePod"
+        }
+      }
+    }
+  }
+}
